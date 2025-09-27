@@ -1,0 +1,86 @@
+/* 🌐 Style dasar untuk halaman */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #111827;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+/* Judul utama & subjudul */
+h1 {
+  text-align: center;
+  color: #0f172a;
+}
+
+h4 {
+  text-align: center;
+  color: #475569;
+  margin-top: -5px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #cbd5e1;
+  margin: 15px 0;
+}
+
+/* 📦 Kotak isi (box biodata, hobi, cita-cita, dll) */
+.box {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* 📌 Judul section dengan garis kiri */
+.section-title {
+  border-left: 5px solid #22c55e;
+  padding-left: 10px;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+/* 🖼️ Foto avatar (foto diri bulat) */
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #cbd5e1;
+  display: block;
+  margin: 10px auto;
+}
+
+/* 🖼️ Foto biasa (misalnya logo sekolah) */
+.photo {
+  max-width: 180px;
+  border-radius: 10px;
+  border: 2px solid #cbd5e1;
+  display: block;
+  margin: 10px auto;
+}
+
+/* 📝 List hobi dan cita-cita */
+ul {
+  list-style-type: square;
+  padding-left: 25px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 25px;
+}
+
+/* 🔗 Link navigasi */
+a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #dc2626;
+  transition: color 0.3s;
+}
